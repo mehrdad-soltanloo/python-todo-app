@@ -43,7 +43,7 @@ def delete_task(tasks):
     view_tasks(tasks)
     try:
         task_num = int(input("Enter the task number to delete: "))
-        task.pop(task_num-1)
+        tasks.pop(task_num-1)
         print(f"Task {task_num} deleted.")
     except(IndexError,ValueError):
         print("Invalid task number")   
