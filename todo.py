@@ -69,7 +69,7 @@ def main():
             break 
         else:
             print("Invalid command. please try again")           
-print("I am okay")
+
 
 if __name__ == "__main__":
     main()  # This is necessary to run the main loop
